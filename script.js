@@ -9,9 +9,9 @@ document.documentElement.classList.add('js');
 document.querySelectorAll('.apply-link').forEach((link) => {
   link.href = APPLICATION_URL;
 });
-document.querySelector('#privacy-link').href = PRIVACY_URL;
-document.querySelector('#legal-link').href = LEGAL_URL;
-document.querySelector('#contact-link').href = CONTACT_URL;
+document.querySelector('https://www.roudokukentei.jp/lp/law/').href = PRIVACY_URL;
+document.querySelector('https://www.roudokukentei.jp/lp/law/').href = LEGAL_URL;
+document.querySelector(https://www.roudokukentei.jp/lp/law/').href = CONTACT_URL;
 
 // 控えめなフェードイン演出。非対応環境では最初から本文を表示します。
 if ('IntersectionObserver' in window) {
