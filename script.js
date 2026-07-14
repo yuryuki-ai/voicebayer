@@ -1,8 +1,8 @@
 // ===== 公開前の設定項目：URLはここだけ変更してください =====
 const APPLICATION_URL = 'https://6109kentei.thebase.in/items/150558311';
-const PRIVACY_URL = '#';
-const LEGAL_URL = '#';
-const CONTACT_URL = '#';
+const PRIVACY_URL = 'https://www.roudokukentei.jp/lp/law/';
+const LEGAL_URL = 'https://www.roudokukentei.jp/lp/law/';
+const CONTACT_URL = 'https://www.roudokukentei.jp/lp/law/';
 
 document.documentElement.classList.add('js');
 
