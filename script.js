@@ -1,5 +1,5 @@
 // ===== 公開前の設定項目：URLはここだけ変更してください =====
-const APPLICATION_URL = 'https://example.com/application';
+const APPLICATION_URL = 'https://6109kentei.thebase.in/items/150558311';
 const PRIVACY_URL = '#';
 const LEGAL_URL = '#';
 const CONTACT_URL = '#';
