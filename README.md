@@ -1,4 +1,4 @@
-# ボイスバイエル入門講座 ランディングページ
+# ボイスバイエル(R) 音声表現入門講座 ランディングページ
 
 このフォルダーには、そのまま公開できる販売ページ一式が入っています。特別なソフトや外部サービスは使っていません。
 
@@ -45,6 +45,20 @@
 2. 「Add new site」→「Deploy manually」を選びます。
 3. このページのファイルが入ったフォルダーをアップロード欄へドラッグします。
 4. 公開されたURLで表示を確認します。
+
+## 申込ボタンのクリック計測
+
+Google Analytics 4またはGoogleタグマネージャーのタグを `index.html` に設定すると、申込ボタンを押した際に `application_button_click` イベントが送られます。Google Analyticsを使わない場合も、そのまま問題なく動作します。
+
+イベントには `button_position` が付きます。
+
+- `first_view`：ページ上部とファーストビューのボタン
+- `middle`：ページ中盤のボタン
+- `bottom`：ページ最下部のボタン
+
+Google Analyticsでは「レポート」→「エンゲージメント」→「イベント」で `application_button_click` を確認します。位置別に詳しく見る場合は、`button_position` をカスタムディメンションとして登録してください。
+
+申込先URLには、ボタン位置に応じて `source=voicebayer_lp` と `position=first_view`、`middle`、または `bottom` が自動で追加されます。
 
 ## ファイルの役割
 
